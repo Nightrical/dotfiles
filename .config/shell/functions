@@ -9,3 +9,13 @@ function fzf-kill-processes() {
     echo $pid | xargs kill -${1:-9}
   fi
 }
+
+function fzf-find-files(){
+  local file=$(find . | fzf --multi --reverse)
+  if [[ $file ]]; then
+    for prog in $(echo $file);
+    do; $EDITOR $prog; done;
+  else
+    echo "cancelled fzf"
+  fi
+}
