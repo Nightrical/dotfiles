@@ -1,0 +1,6 @@
+#!/bin/sh
+
+[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliases/system" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliases/system"
+
+## Host-specific aliases
+[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliases/custom" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliases/custom"
