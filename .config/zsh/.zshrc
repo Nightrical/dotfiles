@@ -39,4 +39,6 @@ plugins=(
 
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc"
 
+[[ -s "$XDG_CONFIG_HOME/grc/grc.zsh" ]] && source "$XDG_CONFIG_HOME/grc/grc.zsh"
+
 source $ZSH/oh-my-zsh.sh
