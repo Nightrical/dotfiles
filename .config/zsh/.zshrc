@@ -42,3 +42,4 @@ plugins=(
 [[ -s "$XDG_CONFIG_HOME/grc/grc.zsh" ]] && source "$XDG_CONFIG_HOME/grc/grc.zsh"
 
 source $ZSH/oh-my-zsh.sh
+source $XDG_CONFIG_HOME/shell/functions
