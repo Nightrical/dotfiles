@@ -44,4 +44,4 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 source $XDG_CONFIG_HOME/shell/functions
 
-alias ls="exa -la"
+alias ls="exa -lagr"
