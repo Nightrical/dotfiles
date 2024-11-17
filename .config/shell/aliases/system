@@ -5,5 +5,5 @@ alias config='/usr/bin/git --git-dir=$HOME/.manager/ --work-tree=$HOME'
 alias cp="cp -iv"
 alias mv="mv -iv"
 alias rm="rm -vI"
-alias cat="$(command -v bat >/dev/null 2>&1 && echo 'bat' || echo 'batcat')"
+alias cat="bat"
 

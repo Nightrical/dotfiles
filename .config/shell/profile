@@ -35,7 +35,7 @@ export FZF_DEFAULT_OPTS="
 --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
 --color=marker:#b4befe,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8 \
 --multi \
---preview='batcat --style=numbers --color=always --line-range :500 {}' --preview-window right:noborder"
+--preview='bat --style=numbers --color=always --line-range :500 {}' --preview-window right:noborder"
 
 # =============================
 
