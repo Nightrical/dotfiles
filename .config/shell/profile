@@ -28,7 +28,7 @@ export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 
 # == Program-specific tweaks ==
 
-export BAT_THEME="base16-256"
+export BAT_THEME="Catppuccin Mocha"
 # export FZF_DEFAULT_OPTS='--color=16 --ansi -m --preview-window right:noborder'
 export FZF_DEFAULT_OPTS='--color=16 --ansi -m --preview="batcat --style=numbers --theme=base16-256 --color=always --line-range :500 {}" --preview-window right:noborder'
 export FZF_DEFAULT_COMMAND='rg --files'
