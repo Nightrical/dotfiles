@@ -1,6 +1,3 @@
-export ZSH="$HOME/.config/zsh/oh-my-zsh"
-export ZSH_CUSTOM="$XDG_CONFIG_HOME/zsh/oh-my-zsh/custom"
-export ZSHZ_DATA=$XDG_CACHE_HOME/zsh/zfile
 export ZSH_FZF_HISTORY_SEARCH_BIND="^r"
 
 # export LS_COLORS="$LS_COLORS:ow=1;34:tw=1;34:"
