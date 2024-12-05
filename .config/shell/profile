@@ -25,6 +25,9 @@ export ANSIBLE_HOME="${XDG_CONFIG_HOME}/ansible"
 # == ZSH Shell ==
 
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+export ZSH="$HOME/.config/zsh/oh-my-zsh"
+export ZSH_CUSTOM="$XDG_CONFIG_HOME/zsh/oh-my-zsh/custom"
+export ZSHZ_DATA=$XDG_CACHE_HOME/zsh/zfile
 
 # == Program-specific tweaks ==
 
