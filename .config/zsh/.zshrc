@@ -11,7 +11,7 @@ PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magent
 ZSH_HIGHLIGHT_STYLES[path]=none
 ZSH_HIGHLIGHT_STYLES[path_prefix]=none
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME=${ZSH_THEME:-"robbyrussell"}
 
 HISTSIZE=10000000
 SAVEHIST=10000000
