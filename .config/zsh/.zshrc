@@ -51,3 +51,6 @@ source $ZSH/oh-my-zsh.sh
 source $XDG_CONFIG_HOME/shell/functions
 
 alias ls="exa -lagr"
+
+# bun completions
+[ -s "/home/miracle/.bun/_bun" ] && source "/home/miracle/.bun/_bun"
