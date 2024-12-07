@@ -1,0 +1,16 @@
+{
+    "editor.fontFamily": "Iosevka NF",
+    "editor.fontSize": 16,
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "catppuccin-perfect-mocha",
+    "catppuccin.accentColor": "lavender",
+    "window.titleBarStyle": "native",
+    "window.customTitleBarVisibility": "never",
+    "window.menuBarVisibility": "toggle",
+    "catppuccin.italicComments": false,
+    "catppuccin.italicKeywords": false,
+    "workbench.colorCustomizations": {
+        "menu.background": "#181825",
+        "menu.border": "#313244"
+    }
+}
