@@ -15,7 +15,8 @@ return {
                             enabled = true,
                             style = "nvchad"
                         },
-                        neotree = true
+                        neotree = true,
+                        barbar = true
                     }
                 }
             )
