@@ -12,5 +12,10 @@
     "workbench.colorCustomizations": {
         "menu.background": "#181825",
         "menu.border": "#313244"
+    },
+    "redhat.telemetry.enabled": false,
+    "vs-kubernetes": {
+        "vscode-kubernetes.minikube-path-linux": "/home/miracle/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vscode-kubernetes.helm-path-linux": "/home/miracle/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm"
     }
 }
