@@ -16,7 +16,8 @@ return {
                             style = "nvchad"
                         },
                         neotree = true,
-                        barbar = true
+                        barbar = true,
+                        which_key = true
                     }
                 }
             )
