@@ -12,7 +12,7 @@ export EDITOR="nvim"
 
 # == Paths ==
 
-export PATH="$PATH:$(find ~/.local/scripts -type d | paste -sd ':' -)"
+export PATH="$PATH:$HOME/.local/poetry/bin:$(find ~/.local/scripts -type d | paste -sd ':' -)"
 export GOPATH="$HOME/.local/go"
 export RUSTUP_HOME="$XDG_DATA_HOME/rustup"
 export GOBIN="$HOME/.local/bin"
