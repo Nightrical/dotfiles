@@ -52,7 +52,7 @@ export FZF_DEFAULT_OPTS="
 
 # == Graphical Environment ==
 
-export WINDOW_MANAGER="berry"
+# export WINDOW_MANAGER="berry"
 
 export TERMINAL="alacritty"
 export LAUNCHER="rofi"
