@@ -31,13 +31,19 @@ export ZSHZ_DATA=$XDG_CACHE_HOME/zsh/zfile
 
 # == Program-specific tweaks ==
 
-export BAT_THEME="Catppuccin Mocha"
+export BAT_THEME="base16"
 export FZF_DEFAULT_COMMAND='rg --files'
+# export FZF_DEFAULT_OPTS="
+# --color=bg+:#313244,bg:#181825,spinner:#f5e0dc,hl:#f38ba8 \
+# --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
+# --color=marker:#b4befe,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8 \
+# --color=border:#313244 \
+# --multi \
+# --border 'rounded' \
+# --preview='bat --style=numbers --color=always --line-range :500 {}' --preview-window right:rounded"
+
 export FZF_DEFAULT_OPTS="
---color=bg+:#313244,bg:#181825,spinner:#f5e0dc,hl:#f38ba8 \
---color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
---color=marker:#b4befe,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8 \
---color=border:#313244 \
+--color=border:#343434 \
 --multi \
 --border 'rounded' \
 --preview='bat --style=numbers --color=always --line-range :500 {}' --preview-window right:rounded"

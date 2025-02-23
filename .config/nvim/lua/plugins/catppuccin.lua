@@ -1,27 +1,8 @@
-return {
-    {
-        "catppuccin/nvim",
-        lazy = false,
-        name = "catppuccin",
-        priority = 1000,
-        config = function()
-            require("catppuccin").setup(
-                {
-                    flavour = "mocha",
-                    transparent_background = false,
-
-                    integrations = {
-                        telescope = {
-                            enabled = true,
-                            style = "nvchad"
-                        },
-                        neotree = true,
-                        barbar = true,
-                        which_key = true
-                    }
-                }
-            )
-            vim.cmd.colorscheme "catppuccin"
-        end
-    }
+return -- lazy
+{
+    "askfiy/visual_studio_code",
+    priority = 100,
+    config = function()
+        vim.cmd([[colorscheme visual_studio_code]])
+    end,
 }
