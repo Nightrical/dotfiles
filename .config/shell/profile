@@ -20,6 +20,11 @@ export CARGO_HOME="$XDG_DATA_HOME/cargo"
 export POETRY_HOME="~/.local/poetry"
 export ANSIBLE_HOME="${XDG_CONFIG_HOME}/ansible"
 
+export GOROOT=/home/miracle/.go
+export PATH=$GOROOT/bin:$PATH
+export GOPATH=/home/miracle/.local/go
+export PATH=$GOPATH/bin:$PATH
+
 # ===========
 
 # == ZSH Shell ==
