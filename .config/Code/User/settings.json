@@ -1,21 +1,183 @@
 {
-    "editor.fontFamily": "Iosevka NF",
-    "editor.fontSize": 16,
-    "workbench.colorTheme": "Catppuccin Mocha",
-    "workbench.iconTheme": "catppuccin-perfect-mocha",
-    "catppuccin.accentColor": "lavender",
-    "window.titleBarStyle": "native",
-    "window.customTitleBarVisibility": "never",
-    "window.menuBarVisibility": "toggle",
-    "catppuccin.italicComments": false,
-    "catppuccin.italicKeywords": false,
+    // == EDITOR ==
+    "editor.fontFamily": "Iosevka Nerd Font Mono",
+    "editor.fontSize": 14,
+    "editor.cursorWidth": 4,
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.insertSpaces": true,
+    "editor.minimap.enabled": false,
+    // ============
+    //
+    // == Explorer ==
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    // ==============
+    //
+    // == Terminal ==
+    "terminal.integrated.fontFamily": "Iosevka Nerd Font Mono",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.enableFileLinks": "on",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorWidth": 5,
+    "terminal.integrated.cursorStyleInactive": "line",
+    // ==============
+    //
+    // == Workbench ==
+    "workbench.startupEditor": "none",
+    "workbench.layoutControl.enabled": true,
+    "workbench.iconTheme": "vs-nomo-dark",
+    "workbench.activityBar.location": "hidden",
+    "workbench.tree.renderIndentGuides": "none",
     "workbench.colorCustomizations": {
-        "menu.background": "#181825",
-        "menu.border": "#313244"
+        "[Default Dark Modern]": {
+            "scrollbar.shadow": "#ffffff00",
+            "widget.shadow": "#ffffff00",
+            "editorSuggestWidget.background": "#191919",
+            "editorSuggestWidget.border": "#292929",
+            "menu.background": "#191919",
+            "menu.selectionBackground": "#435051",
+            "tab.activeBorderTop": "#1f1f1f",
+            // "tab.border": "#1f1f1f",
+            // "tab.unfocusedActiveBorder": "#1f1f1f",
+            // "tab.unfocusedActiveBorderTop": "#1f1f1f",
+            "button.background": "#435051",
+            "button.hoverBackground": "#435051c8",
+            "menu.border": "#292929",
+            // "menu.separatorBackground": "#292929",
+            "focusBorder": "#191919",
+            "statusBarItem.remoteBackground": "#435051",
+            "terminal.ansiBrightRed": "#C49EA0",
+            "terminal.ansiBrightWhite": "#F5F5F5",
+            "terminal.ansiBrightYellow": "#C4C19E",
+            "terminal.ansiBrightBlue": "#A39EC4",
+            "terminal.ansiBrightCyan": "#9EC3C4",
+            "terminal.ansiBrightGreen": "#9EC49F",
+            "terminal.ansiBrightMagenta": "#C49EC4",
+            "terminal.ansiBrightBlack": "#4C4C4C",
+            "terminal.ansiBlack": "#262626",
+            "terminal.ansiBlue": "#8F8AAC",
+            "terminal.ansiCyan": "#8AABAC",
+            "terminal.ansiGreen": "#8AAC8B",
+            "terminal.ansiMagenta": "#AC8AAC",
+            "terminal.ansiRed": "#AC8A8C",
+            "terminal.ansiWhite": "#E7E7E7",
+            "terminal.ansiYellow": "#ACA98A",
+        }
     },
-    "redhat.telemetry.enabled": false,
-    "vs-kubernetes": {
-        "vscode-kubernetes.minikube-path-linux": "/home/miracle/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
-        "vscode-kubernetes.helm-path-linux": "/home/miracle/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm"
-    }
+    // ===============
+    //
+    // == Window ==
+    "window.menuBarVisibility": "toggle",
+    "window.commandCenter": true,
+    // ============
+    //
+    // == Files ==
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    // ===========
+    //
+    // == Security ==
+    "security.workspace.trust.enabled": false,
+    // ==============
+    //
+    // == Debugger ==
+    "debug.console.fontFamily": "Maple Mono NF",
+    "debug.console.fontSize": 13,
+    //
+    // == Search ==
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/.mypy_cache": true,
+        "**/.pytest_cache": true,
+        "**/__pycache__": true,
+        "**/.git": true,
+    },
+    // ============
+    //
+    // == Breadcrumbs ==
+    "breadcrumbs.enabled": true,
+    // =================
+    // == Vscode ==
+    "telemetry.telemetryLevel": "off",
+    // ============
+    //
+    // == Python ==
+    "ruff.enable": true,
+    "ruff.exclude": [
+        ".bzr",
+        ".direnv",
+        ".eggs",
+        ".git",
+        ".git-rewrite",
+        ".hg",
+        ".ipynb_checkpoints",
+        ".mypy_cache",
+        ".nox",
+        ".pants.d",
+        ".pyenv",
+        ".pytest_cache",
+        ".pytype",
+        ".ruff_cache",
+        ".svn",
+        ".tox",
+        ".venv",
+        ".vscode",
+        "__pypackages__",
+        "_build",
+        "buck-out",
+        "build",
+        "dist",
+        "node_modules",
+        "site-packages",
+        "venv",
+    ],
+    "ruff.nativeServer": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.useLibraryCodeForTypes": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.terminal.activateEnvironment": true,
+    "python.venvPath": "${workspaceFolder}/.venv",
+    "python.analysis.stubPath": "typings",
+    "python.analysis.exclude": [
+        "**/.venv/**",
+        "**/.tox/**",
+        "**/.mypy_cache/**",
+        "**/.pytest_cache/**",
+        "**/__pycache__/**"
+    ],
+    "[python]": {
+        "editor.inlineSuggest.enabled": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.defaultColorDecorators": "never",
+        "editor.indentSize": 4,
+        "editor.codeActionsOnSave": {
+            // "source.fixAll.ruff": "explicit",
+            "source.organizeImports.ruff": "explicit"
+        }
+    },
+    // ============
+    //
+    // == JSON ==
+    "[json]": {
+        "editor.indentSize": 2,
+    },
+    // ==========
+    //
+    // == IntelliCode ==
+    "intellicodeApiExamples.python.enabled": true,
+    "vsintellicode.python.completionsEnabled": true,
+    // =================
+    //
 }
